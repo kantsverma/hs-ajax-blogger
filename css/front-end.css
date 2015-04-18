@@ -1,0 +1,64 @@
+/*
+refrence style 
+http://demo.mythemeshop.com/dualshock/
+
+*/
+.blogsection {
+    width: 100%;
+}
+.blogsection li {
+    list-style: outside none none;
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(5, 5, 5, 0.25);
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+    width: 76.8%;
+    z-index: 10;
+    width: 100%;
+}
+.blogsection .blogthum {
+	float:left;
+}
+.blogsection .blogtext {
+    clear: both;
+    color: #222222;
+    display: block;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding-bottom: 1px;
+    padding-top: 16px;
+	float:right;
+}
+/* pagination style */
+.custom-pagination span,
+.custom-pagination a {
+  display: inline-block;
+  padding: 2px 10px;
+}
+.custom-pagination a {
+  background-color: #ebebeb;
+  color: #ff3c50;
+}
+.custom-pagination a:hover {
+  background-color: #ff3c50;
+  color: #fff;
+}
+.custom-pagination span.page-num {
+  margin-right: 10px;
+  padding: 0;
+}
+.custom-pagination span.dots {
+  padding: 0;
+  color: gainsboro;
+}
+.custom-pagination span.current {
+  background-color: #ff3c50;
+  color: #fff;
+}
